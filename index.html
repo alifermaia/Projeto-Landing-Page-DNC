@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE-Edge">
+    <title>Escola DNC</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- MENU SUPERIOR -->
+
+    <div id="menusuperior">
+    <a href="https://escoladnc.com.br/"><img id="logo" src="./imagens/logo.svg" alt="logo"></a>
+
+    <h1 id="titulo_menusuperior">Dê os primeiros passos da <br> sua carreira em Tecnologia</h1>
+
+    <p id="texto_menusuperior">Inscreva-se no curso gratuito de Introdução à <br> Tecnologia da DNC School e aprenda os principais <br> fundamentos para construir experiências efetivas.</p>
+    </div>
+
+   <!-- MENU INFORMACIONAL -->
+
+    <div id="menuinformacional">
+        
+        <p class="textoinformativo"><img id="certificado" class="icone" src="./imagens/certificado.svg" alt="">Certificado de conclusão</p>
+        
+        <p class="textoinformativo"><img id="relogio" class="icone" src="./imagens/relogio.svg" alt="">4 horas de conteúdo</p>
+        
+        <p class="textoinformativo"><img id="camera" class="icone" src="./imagens/camera.svg" alt="">Aulas online gravadas</p>
+    </div>
+
+    <!-- SEÇÃO VÍDEO -->
+
+    <div id="secaovideo">
+        <iframe id="video" width="502" height="283" src="https://www.youtube.com/embed/jFjDPGBLynA" title="Qual a melhor ÁREA e EMPRESA para se trabalhar em 2025? | JOCA | Aula 3" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+            <div>
+
+            <h1 id="titulovideo">Aprenda com especialistas e <br>
+                comece seu primeiro projeto</h1>
+
+            <br><br>
+
+            <p id="textovideo">Conheça o processo de desenvolvimento e entenda como utilizar <br>
+                os principais métodos e ferramentas da área para resolver <br>
+                problemas complexos.
+                <br><br>
+            Conquiste seu certificado e desenvolva um projeto prático para <br>
+            aplicar seus conhecimentos.</p>
+        </div>
+    </div>
+
+    <!-- CARROSSEL -->
+
+    <div id="carrossel">
+
+        <h1 id="titulocarrossel">Mais de 500 alunos já iniciaram seus estudos</h1>
+
+        <!-- DIVISÃO DOS CARDS -->
+
+            <div id="div_cards">
+                <img id="setaesquerda" onclick="RolarParaEsquerda()" class="seta" src="./imagens/setaesquerda.svg" alt="">
+                <img id="Leonardo" class="card" src="./imagens/leonardo.svg" alt="leonardo">
+                <img id="Samantha" class="card" src="./imagens/samantha.svg" alt="samantha">
+                <img id="Bruna" class="card" src="./imagens/bruna.svg" alt="bruna">
+                <img id="setadireita" onclick="RolarParaDireita()" class="seta" src="./imagens/setadireita.svg" alt="">
+            </div>
+
+    </div>
+
+    <!-- FORMULÁRIO -->
+
+    <div id="formulario">
+        <h1 id="tituloformulario">Comece agora mesmo e dê o próximo passo da sua carreira</h1>
+        <form action="https://api.sheetmonkey.io/form/fDMEBEfvipgY2ro1cFFN1A" method="post">
+            <input type="text" name="Nome" placeholder="Nome" required> <br>
+            <input type="email" name="Email" placeholder="E-mail" required> <br>
+            <input type="number" name="Phone" placeholder="Telefone" required> <br>
+            <button>Acesse a ementa grátis</button>
+        </form>
+    </div>
+
+
+    <script src="index.js"></script>
+
+
+    
+</body>
+</html>
